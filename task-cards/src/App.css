@@ -1,0 +1,48 @@
+.CardContainer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.Card{
+  width: 330px;
+  margin: 20px 10px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, z-index 0.3s ease;
+  
+}
+.Card:hover{
+  z-index: 10;
+  transform: scale(1.05);
+}
+.Container{
+  padding: 5rem 10rem;
+}
+.Title{
+ font-weight: 600;
+ font-size: 20px;
+ font-style: italic;
+}
+.Title:hover{
+  color: #E09200;
+  
+}
+
+.Button{
+  border-radius: 50px;
+  width: 150px;
+  height: 30px;
+  background-color: #E09200;
+  border:none;
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, z-index 0.3s ease;
+}
+.Button:hover{
+  z-index: 12;
+  transform: scale(1.05);
+}
